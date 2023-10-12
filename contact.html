@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="my portfolio website to showcase the work I have done so far, the services I provide and all my professionals life.">
+    <title>Shivam Soni</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+        <img
+        src="/images/shivam.logo.png"
+        alt="Shivam Soni logo"
+        class="logo"
+      />
+      <nav class="navbar">
+        <ul class="navbar-lists">
+          <li><a class="navbar-link home-link" href="index.html" >Home</a></li>
+          <li><a class='navbar-link about-link' href='/about.html'>About</a></li>
+          <li><a class='navbar-link service-link' href='/service.html'>Services</a></li>
+          <li><a class="navbar-link portfolio-link" href="/portfolio.html">Portfolio</a></li>
+          <li>
+            <a class='navbar-link' href='/contact.html' target='_blank'>Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-navbar-btn">
+        <ion-icon
+          class="mobile-nav-icon"
+          name="menu-outline"
+          class="mobile-nav-icon"
+        ></ion-icon>
+
+        <ion-icon
+          class="mobile-nav-icon"
+          name="close-outline"
+          class="mobile-nav-icon"
+        ></ion-icon>
+      </div>
+    </header>
+    <section class="section section-contact ">
+        <div class="container">
+          <h2 class="common-heading">contact us</h2>
+        </div>
+
+        <div class="section-contact-main contact-container">
+          <form action="https://formspree.io/f/meqbjoyz"
+          method="POST">
+            <div class=" grid grid-two-col">
+              <input type="text" name="username" id="" required placeholder="Name">
+              <input type="email" name="email" required placeholder="Email" autocomplete="false">
+            </div>
+            <div>
+              <input type="text" name="subject" placeholder="Subject">
+            </div>
+             <div>
+               <textarea name="message" id="" placeholder="Message"></textarea>
+             </div>
+
+             <div>
+               <input type="submit" value="send message" class="btn">
+             </div>
+          </form>
+        </div>
+      </section>
+
+  </body>
